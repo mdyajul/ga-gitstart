@@ -6,6 +6,7 @@ import Card from '@/components/Card'
 import { useState } from 'react'
 import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] })
+import { getServerSideProps } from 'next'
 
 export default function Home({ props=[], count }) {
  // const [currentPage, setCurrentPage] = useState(count)
