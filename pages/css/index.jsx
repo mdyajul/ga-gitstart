@@ -3,7 +3,7 @@ import {Box,Grid,GridItem, Flex, Button} from "@chakra-ui/react"
 import Card from '@/components/Card'
 import Link from 'next/link';
 
-const Page = ({props, count}) => {
+const Page = ({props=[], count}) => {
   return (
     <div>
          <Grid 

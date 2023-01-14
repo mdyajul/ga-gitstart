@@ -7,7 +7,7 @@ import { useState } from 'react'
 import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home({ props, count }) {
+export default function Home({ props=[], count }) {
  // const [currentPage, setCurrentPage] = useState(count)
   return (
     <>   
