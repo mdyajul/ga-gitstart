@@ -2,7 +2,7 @@ import React from 'react'
 import {Box,Grid,GridItem, Flex, Button} from "@chakra-ui/react"
 import Card from '@/components/Card'
 import Link from 'next/link';
-import { getServerSideProps } from 'next'
+ 
 const Page = ({props=[], count}) => {
   return (
     <div>
